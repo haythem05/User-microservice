@@ -30,20 +30,13 @@ public class UserServices {
 
     private static final long EXPIRE_TOKEN_AFTER_MINUTES = 60;
 
-    @Autowired
-    private UserRepository userRepository;
-    private  final PasswordEncoder passwordEncoder;
 
- 
-    @Autowired
-    private JavaMailSender mailSender;
-
-    @Autowired
-    private SmsService smsService;
-    @Autowired
-    Utils utils;
-    @Autowired
-    private JwtService jwtService;
+    private final UserRepository userRepository;
+    private final PasswordEncoder passwordEncoder;
+    private final JavaMailSender mailSender;
+    private final SmsService smsService;
+    private final JwtService jwtService;
+    private final Utils utils;
 
     public List<User> ShowAllUsers()
     {
