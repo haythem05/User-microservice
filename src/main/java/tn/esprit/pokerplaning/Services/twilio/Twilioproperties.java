@@ -1,4 +1,4 @@
-package tn.esprit.pokerplaning.Services.User.twilio;
+package tn.esprit.pokerplaning.Services.twilio;
 
 import lombok.Getter;
 import org.springframework.boot.context.properties.ConfigurationProperties;

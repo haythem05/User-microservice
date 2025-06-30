@@ -1,4 +1,4 @@
-package tn.esprit.pokerplaning.Services.User;
+package tn.esprit.pokerplaning.Services;
 
 import io.jsonwebtoken.ExpiredJwtException;
 import lombok.RequiredArgsConstructor;
@@ -13,9 +13,9 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.multipart.MultipartFile;
-import tn.esprit.pokerplaning.Entities.User.User;
-import tn.esprit.pokerplaning.Repositories.User.UserRepository;
-import tn.esprit.pokerplaning.Services.User.twilio.SmsService;
+import tn.esprit.pokerplaning.Entities.User;
+import tn.esprit.pokerplaning.Repositories.UserRepository;
+import tn.esprit.pokerplaning.Services.twilio.SmsService;
 import tn.esprit.pokerplaning.Utils.Utils;
 
 import java.io.IOException;

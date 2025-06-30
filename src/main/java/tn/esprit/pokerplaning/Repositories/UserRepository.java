@@ -1,7 +1,7 @@
-package tn.esprit.pokerplaning.Repositories.User;
+package tn.esprit.pokerplaning.Repositories;
 
 import org.springframework.data.jpa.repository.JpaRepository;
-import tn.esprit.pokerplaning.Entities.User.User;
+import tn.esprit.pokerplaning.Entities.User;
 
 import java.util.Optional;
 

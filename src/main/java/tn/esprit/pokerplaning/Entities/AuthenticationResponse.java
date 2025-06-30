@@ -1,4 +1,4 @@
-package tn.esprit.pokerplaning.Entities.User;
+package tn.esprit.pokerplaning.Entities;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

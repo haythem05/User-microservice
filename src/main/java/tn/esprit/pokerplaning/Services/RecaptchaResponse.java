@@ -1,4 +1,4 @@
-package tn.esprit.pokerplaning.Services.User;
+package tn.esprit.pokerplaning.Services;
 
 public class RecaptchaResponse {
 

@@ -6,10 +6,10 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
-import tn.esprit.pokerplaning.Entities.User.AuthenticationRequest;
-import tn.esprit.pokerplaning.Entities.User.AuthenticationResponse;
-import tn.esprit.pokerplaning.Entities.User.RegisterRequest;
-import tn.esprit.pokerplaning.Services.User.AuthenticationService;
+import tn.esprit.pokerplaning.Entities.AuthenticationRequest;
+import tn.esprit.pokerplaning.Entities.AuthenticationResponse;
+import tn.esprit.pokerplaning.Entities.RegisterRequest;
+import tn.esprit.pokerplaning.Services.AuthenticationService;
 
 import java.io.IOException;
 

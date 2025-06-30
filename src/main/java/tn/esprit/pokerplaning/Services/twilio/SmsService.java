@@ -1,4 +1,4 @@
-package tn.esprit.pokerplaning.Services.User.twilio;
+package tn.esprit.pokerplaning.Services.twilio;
 
 
 import com.twilio.Twilio;
@@ -6,7 +6,7 @@ import com.twilio.rest.api.v2010.account.Message;
 import com.twilio.type.PhoneNumber;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import tn.esprit.pokerplaning.Entities.User.SmsRequest;
+import tn.esprit.pokerplaning.Entities.SmsRequest;
 
 
 @Service

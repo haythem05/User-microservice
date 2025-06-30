@@ -1,4 +1,4 @@
-package tn.esprit.pokerplaning.Services.User;
+package tn.esprit.pokerplaning.Services;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
@@ -7,7 +7,7 @@ import io.jsonwebtoken.io.Decoders;
 import io.jsonwebtoken.security.Keys;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Service;
-import tn.esprit.pokerplaning.Entities.User.User;
+import tn.esprit.pokerplaning.Entities.User;
 
 import javax.crypto.SecretKey;
 import java.util.Date;

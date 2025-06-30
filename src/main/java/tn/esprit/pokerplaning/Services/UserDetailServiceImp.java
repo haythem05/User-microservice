@@ -1,11 +1,11 @@
-package tn.esprit.pokerplaning.Services.User;
+package tn.esprit.pokerplaning.Services;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
-import tn.esprit.pokerplaning.Repositories.User.UserRepository;
+import tn.esprit.pokerplaning.Repositories.UserRepository;
 
 @RequiredArgsConstructor
 @Service

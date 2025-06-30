@@ -1,4 +1,4 @@
-package tn.esprit.pokerplaning.Entities.User.Filter;
+package tn.esprit.pokerplaning.Entities.Filter;
 
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
@@ -12,8 +12,8 @@ import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.web.authentication.WebAuthenticationDetailsSource;
 import org.springframework.stereotype.Component;
 import org.springframework.web.filter.OncePerRequestFilter;
-import tn.esprit.pokerplaning.Services.User.JwtService;
-import tn.esprit.pokerplaning.Services.User.UserDetailServiceImp;
+import tn.esprit.pokerplaning.Services.JwtService;
+import tn.esprit.pokerplaning.Services.UserDetailServiceImp;
 
 import java.io.IOException;
 

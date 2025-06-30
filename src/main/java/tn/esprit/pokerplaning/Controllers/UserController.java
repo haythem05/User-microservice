@@ -9,9 +9,9 @@ import org.springframework.mail.SimpleMailMessage;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
-import tn.esprit.pokerplaning.Entities.User.User;
-import tn.esprit.pokerplaning.Repositories.User.UserRepository;
-import tn.esprit.pokerplaning.Services.User.UserServices;
+import tn.esprit.pokerplaning.Entities.User;
+import tn.esprit.pokerplaning.Repositories.UserRepository;
+import tn.esprit.pokerplaning.Services.UserServices;
 
 import java.time.LocalDateTime;
 import java.util.Collections;
