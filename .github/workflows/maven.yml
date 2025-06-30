@@ -101,7 +101,7 @@ jobs:
   dockerpush:
     name: Build and Push Docker Image
     runs-on: ubuntu-latest
-    needs: build
+    needs: dependency-check
 
     steps:
       - uses: actions/checkout@v4
