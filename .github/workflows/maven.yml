@@ -23,10 +23,12 @@ jobs:
           cache: maven
 
       - name: Compile and Package (dev profile)
-        run: mvn clean package -DskipTests
+        run: mvn clean package -DskipTests -Pdev
 
       - name: Run Unit and Functional Tests (test profile)
-        run: mvn test
+        run: mvn test -Ptest
+      - name: jacoco
+        run: mvn verify -Ptest
 
   dependency-check:
     name: Dependency Vulnerability Check
@@ -55,8 +57,9 @@ jobs:
             --out dependency-check-report \
             --failOnCVSS 7
 
-      - name: Upload HTML Report
+      - name: Upload JSON Report
         uses: actions/upload-artifact@v4
         with:
-          name: dependency-check-report
-          path: dependency-check-report
+          name: dependency-check-json
+          path: dependency-check-report/dependency-check-report.json
+
