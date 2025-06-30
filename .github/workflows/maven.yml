@@ -51,7 +51,7 @@ jobs:
           ./dependency-check/dependency-check/bin/dependency-check.sh \
             --project "UserMicroservice" \
             --scan . \
-            --format "HTML" \
+            --format "JSON" \
             --out dependency-check-report \
             --failOnCVSS 7
 
