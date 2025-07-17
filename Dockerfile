@@ -10,7 +10,7 @@ COPY ./src ./src
 RUN mvn clean package -DskipTests
 
 # Stage 2: Run the application
-FROM openjdk:17-alpine
+FROM eclipse-temurin:17-jdk-jammy
 WORKDIR /app
 
 # Copy built JAR from the previous stage
